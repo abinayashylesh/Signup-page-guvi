@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <title>Register</title>
+
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Registration</h2>
+
+                    <form method="POST" action="login.html">
+                    
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label for="first_name" class="label">first name</label>
+                                    <input class="input--style-4" placeholder="first_name" type="text" name="first_name" required>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label for="last_name" class="label">last name</label>
+                                    <input class="input--style-4" placeholder="last_name" type="text" name="last_name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label for="birthday" class="label">Birthday</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4 js-datepicker" placeholder="dd/mm/yy" type="text" name="bday" required>
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <label for="number" class="label">Phone Number</label>
+                                        <input class="input--style-4" type="text" placeholder="phone_number" name="number" id="number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label for="email" class="label">Email</label>
+                                    <input class="input--style-4" placeholder="email" type="text" name="email" required>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label for="password" class="label">password</label>
+                                    <input class="input--style-4" type="password" placeholder="password" name="password" id="password">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" value="Submit" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+
+</body>
+</html>
